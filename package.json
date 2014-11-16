@@ -1,0 +1,42 @@
+{
+  "name": "gulp-collate",
+  "description": "The gulp plugin `gulp-collate` allows you to remove files from the destination folder which do no exist in the stream",
+  "version": "0.0.0",
+  "author": {
+    "name": "Oliver Foster",
+    "email": "oliver.foster@kineo.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/oliverfoster/gulp-collate.git"
+  },
+  "main": "lib/index.js",
+  "engines": {
+    "node": "*"
+  },
+  "license": {
+    "type": "MIT",
+    "url": "http://github.com/oliverfoster/gulp-collate/raw/master/LICENSE"
+  },
+  "dependencies": {
+    "through": "~2.3.4"
+  },
+  "keywords": [
+    "gulp",
+    "gulpplugin",
+    "minimatch",
+    "clean",
+    "dest",
+    "pipe"
+  ],
+  "bugs": {
+    "url": "https://github.com/oliverfoster/gulp-collate/issues"
+  },
+  "homepage": "https://github.com/oliverfoster/gulp-collate",
+  "maintainers": [
+    {
+      "name": "Oliver Foster",
+      "email": "oliver.foster@kineo.com"
+    }
+  ]
+}

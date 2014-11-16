@@ -1,7 +1,7 @@
 {
   "name": "gulp-collate",
-  "description": "The gulp plugin `gulp-collate` allows you to remove files from the destination folder which do no exist in the stream",
-  "version": "0.0.0",
+  "description": "Take all files from gulp.src, collate/rename all files to come from 'foldername'",
+  "version": "0.0.1",
   "author": {
     "name": "Oliver Foster",
     "email": "oliver.foster@kineo.com"

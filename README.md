@@ -1,11 +1,11 @@
 # gulp-collate
 
-Take all files from gulp.src, collate/rename all files to come from 'foldername':
+Take all files (and sub folder) from gulp.src, collate all files from same folder name and rename all files to come from cwd.
 
   
 Given: 
 ```
-/path/src/
+src
 ├── a.txt
 ├── b.txt
 ├── c.txt
@@ -14,7 +14,7 @@ Given:
 ├──			├── z.txt
 ├──	    	├── a.txt
 ├──	    	└── b.txt
-├──path2
+└── path2
 		└──path3
 			├──
 	    	├── y.txt
@@ -27,15 +27,15 @@ Given:
   
 And:
 ```
-gulp.src( "/path/src/" )
+gulp.src( "src/**/assets/**/*" )
 	.pipe(collate("assets"))
-	.pipe(gulp.dest("/path/dest/"));
+	.pipe(gulp.dest("dest/"));
 
 ```
   
 Outputs:
 ```
-/path/dest/
+dest/
 ├──	z.txt
 ├──	a.txt
 ├──	b.txt

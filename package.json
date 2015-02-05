@@ -1,7 +1,7 @@
 {
   "name": "gulp-collate",
   "description": "Take all files from gulp.src, collate/rename all files to come from 'foldername'",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "author": {
     "name": "Oliver Foster",
     "email": "oliver.foster@kineo.com"

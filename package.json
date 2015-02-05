@@ -19,7 +19,7 @@
     "url": "http://github.com/oliverfoster/gulp-collate/raw/master/LICENSE"
   },
   "dependencies": {
-    "through": "~2.3.4"
+     "gulp-tap": "^0.1.3",
   },
   "keywords": [
     "gulp",

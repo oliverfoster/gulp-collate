@@ -1,7 +1,7 @@
 {
   "name": "gulp-collate",
   "description": "Take all files from gulp.src, collate/rename all files to come from 'foldername'",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": {
     "name": "Oliver Foster",
     "email": "oliver.foster@kineo.com"
@@ -19,7 +19,7 @@
     "url": "http://github.com/oliverfoster/gulp-collate/raw/master/LICENSE"
   },
   "dependencies": {
-     "gulp-tap": "^0.1.3",
+     "gulp-tap": "^0.1.3"
   },
   "keywords": [
     "gulp",
